@@ -1,0 +1,23 @@
+/*
+	Read Only by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+/* Header */
+
+	#header {
+		width: 20em;
+	}
+
+/* Wrapper */
+
+	#wrapper {
+		padding-right: 20em;
+	}

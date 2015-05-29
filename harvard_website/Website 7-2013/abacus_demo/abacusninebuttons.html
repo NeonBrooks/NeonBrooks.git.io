@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<meta charset="utf8">
+<style>
+  body {
+    background:rgba(245,245,245,1);
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 100;
+    font-size: 6px;
+  }
+  #abacus {
+    width: 720px;
+    height: 800px; // this is the height of the whole "window"
+  }
+  #value {
+    font-size: 100px;
+    color: #555;
+    margin: 10px;
+  }
+   #btext {
+    font-size: 90px;
+    color: red;
+    margin: 10px;
+  }
+  .bead {
+    fill: black;
+    stroke: black;
+    stroke-width: 1;
+  }
+
+  .dot {
+    fill: white;
+    stroke: black;
+    stroke-width: .1;
+  }
+  .rod {
+    stroke: #777;
+    stroke-width: .5;
+  }
+  .button {
+/*     fill: white; */
+    stroke: black;
+    stroke-width: .5;
+  }
+   
+
+  #frame {
+    fill: none; 
+    stroke: #555; 
+    stroke-width: 1;
+  }
+</style>
+<body> 
+  <svg id="abacus"> 
+    <g id="layer1" transform="scale(6)">
+      <rect id="frame" x="0" y="0" width="120" height="73" /> // This is the size of the frame of the abacus
+<!--       <text id="btext" x="100" y="100">  </text> -->
+    </g>
+  </svg>
+  <script src="abacusninebuttons.js"></script>
+
+
